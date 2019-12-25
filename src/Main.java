@@ -1,0 +1,68 @@
+public class Main {
+    public static void main(String[] args) {
+        LaptopForShop laptopForShop = new LaptopForShop("Intel",
+                "i5-8600",
+                true,
+                "Intel UHD Graphics 630",
+                false,
+                "nVidia",
+                "GTX 1060",
+                "DDR4",
+                16,
+                "Asus",
+                "Lenovo",
+                "ThinkPad T490",
+                true,
+                "5.0",
+                14,
+                1920,
+                1080,
+                true,
+                1.6f,
+                true,
+                3.9f,
+                0,
+                false,
+                "",
+                0,
+                true,
+                "SSD",
+                256,
+                true,
+                "Windows 10 Pro 64bit",
+                1.47f);
+        laptopForShop.showLaptopParameters();
+
+        LaptopForProduction laptopForProduction = new LaptopForProduction("AMD",
+                "Ryzen 7 3700U ",
+                true,
+                "AMD Radeon RX Vega 10 Graphics ",
+                false,
+                "Radeon",
+                "",
+                "DDR4",
+                16,
+                "AMD",
+                "20NE000CRT",
+                "ThinkPad",
+                "Composite",
+                "Membrane",
+                90,
+                35,
+                4,
+                15,
+                1400,
+                6000,
+                20,
+                2,
+                2400,
+                6,
+                "C",
+                true,
+                8.769
+                );
+
+        System.out.println();
+        laptopForProduction.showLaptopParameters();
+    }
+}
