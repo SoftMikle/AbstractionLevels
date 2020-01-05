@@ -1,3 +1,4 @@
+package Computers;
 
 public class LaptopForProduction extends Computer {
     private String laptopID;
@@ -17,11 +18,6 @@ public class LaptopForProduction extends Computer {
     private String shippingDimensionsClass;
     private boolean isCertifiedInUSA;
     private double internalBenchmarkScore;
-
-//    public LaptopForProduction(){
-//
-//    }
-
 
     public LaptopForProduction(String CPUManufacturer, String CPUType, boolean hasIntegratedGPU, String integratedGPUType, boolean hasDiscreteGPU, String GPUManufacturer, String GPUType, String RAMType, int RAMSize, String motherboardManufacturer, String laptopID, String laptopFamily, String laptopBodyMaterial, String keyboardType, int supplyBlockMaxPower, int CPUPowerConsumption, int CPUCoresQuantity, int GPUPowerConsumption, int GPUFrequency, int maxSATABusFrequency, int screenPowerConsumption, int RAMSlotsQuantity, int RAMFrequency, int batteryLifetime, String shippingDimensionsClass, boolean isCertifiedInUSA, double internalBenchmarkScore) {
         super(CPUManufacturer, CPUType, hasIntegratedGPU, integratedGPUType, hasDiscreteGPU, GPUManufacturer, GPUType, RAMType, RAMSize, motherboardManufacturer);
@@ -64,135 +60,67 @@ public class LaptopForProduction extends Computer {
         return laptopID;
     }
 
-    public void setLaptopID(String laptopID) {
-        this.laptopID = laptopID;
-    }
-
     public String getLaptopFamily() {
         return laptopFamily;
-    }
-
-    public void setLaptopFamily(String laptopFamily) {
-        this.laptopFamily = laptopFamily;
     }
 
     public String getLaptopBodyMaterial() {
         return laptopBodyMaterial;
     }
 
-    public void setLaptopBodyMaterial(String laptopBodyMaterial) {
-        this.laptopBodyMaterial = laptopBodyMaterial;
-    }
-
     public String getKeyboardType() {
         return keyboardType;
-    }
-
-    public void setKeyboardType(String keyboardType) {
-        this.keyboardType = keyboardType;
     }
 
     public int getSupplyBlockMaxPower() {
         return supplyBlockMaxPower;
     }
 
-    public void setSupplyBlockMaxPower(int supplyBlockMaxPower) {
-        this.supplyBlockMaxPower = supplyBlockMaxPower;
-    }
-
     public int getCPUPowerConsumption() {
         return CPUPowerConsumption;
-    }
-
-    public void setCPUPowerConsumption(int CPUPowerConsumption) {
-        this.CPUPowerConsumption = CPUPowerConsumption;
     }
 
     public int getCPUCoresQuantity() {
         return CPUCoresQuantity;
     }
 
-    public void setCPUCoresQuantity(int CPUCoresQuantity) {
-        this.CPUCoresQuantity = CPUCoresQuantity;
-    }
-
     public int getGPUPowerConsumption() {
         return GPUPowerConsumption;
-    }
-
-    public void setGPUPowerConsumption(int GPUPowerConsumption) {
-        this.GPUPowerConsumption = GPUPowerConsumption;
     }
 
     public int getGPUFrequency() {
         return GPUFrequency;
     }
 
-    public void setGPUFrequency(int GPUFrequency) {
-        this.GPUFrequency = GPUFrequency;
-    }
-
     public int getMaxSATABusFrequency() {
         return maxSATABusFrequency;
-    }
-
-    public void setMaxSATABusFrequency(int maxSATABusFrequency) {
-        this.maxSATABusFrequency = maxSATABusFrequency;
     }
 
     public int getScreenPowerConsumption() {
         return screenPowerConsumption;
     }
 
-    public void setScreenPowerConsumption(int screenPowerConsumption) {
-        this.screenPowerConsumption = screenPowerConsumption;
-    }
-
     public int getRAMSlotsQuantity() {
         return RAMSlotsQuantity;
-    }
-
-    public void setRAMSlotsQuantity(int RAMSlotsQuantity) {
-        this.RAMSlotsQuantity = RAMSlotsQuantity;
     }
 
     public int getRAMFrequency() {
         return RAMFrequency;
     }
 
-    public void setRAMFrequency(int RAMFrequency) {
-        this.RAMFrequency = RAMFrequency;
-    }
-
     public int getBatteryLifetime() {
         return batteryLifetime;
-    }
-
-    public void setBatteryLifetime(int batteryLifetime) {
-        this.batteryLifetime = batteryLifetime;
     }
 
     public String getShippingDimensionsClass() {
         return shippingDimensionsClass;
     }
 
-    public void setShippingDimensionsClass(String shippingDimensionsClass) {
-        this.shippingDimensionsClass = shippingDimensionsClass;
-    }
-
     public boolean isCertifiedInUSA() {
         return isCertifiedInUSA;
     }
 
-    public void setCertifiedInUSA(boolean certifiedInUSA) {
-        isCertifiedInUSA = certifiedInUSA;
-    }
-
     public double getInternalBenchmarkScore() {
         return internalBenchmarkScore;
-    }
-
-    public void setInternalBenchmarkScore(double internalBenchmarkScore) {
-        this.internalBenchmarkScore = internalBenchmarkScore;
     }
 }

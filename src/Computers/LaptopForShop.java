@@ -1,3 +1,4 @@
+package Computers;
 
 public class LaptopForShop extends Computer {
     private String laptopManufacturer;
@@ -22,7 +23,7 @@ public class LaptopForShop extends Computer {
     private String OSName;
     private float laptopWeight;
 
-    //public LaptopForShop(){
+    //public Computers.LaptopForShop(){
 
     //}
 
