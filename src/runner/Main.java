@@ -1,10 +1,9 @@
-import Builders.Builder;
-import Builders.ComputerBuilder;
-import Builders.LaptopForProductionBuilder;
-import Builders.LaptopForShopBuilder;
-import Computers.Computer;
+package runner;
+
+import Builders.*;
 import Computers.LaptopForProduction;
 import Computers.LaptopForShop;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -19,16 +18,10 @@ public class Main {
         System.out.println();
         laptopForProduction.showLaptopParameters();
 
-//        ComputerBuilder builder = new ComputerBuilder();
-//
-//        Computer computer = builder.buildComputer();
-//
-
         manager.constructLaptopForShop(laptopForShopBuilder);
         LaptopForShop laptopForShop = laptopForShopBuilder.buildLaptopForShop();
 
         System.out.println();
         laptopForShop.showLaptopParameters();
-
     }
 }
